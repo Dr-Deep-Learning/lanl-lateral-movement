@@ -1,0 +1,68 @@
+{
+  "days_scored": [
+    7,
+    15
+  ],
+  "edge_hours_scored": 3855795,
+  "positives_strict": 484,
+  "positives_lenient": 491,
+  "base_rates": {
+    "new_user_dst": 0.021811,
+    "new_user_src": 0.017432,
+    "new_src_dst": 0.025008,
+    "ntlm": 0.034171,
+    "first_ntlm_for_user": 0.006714,
+    "any_fail": 0.003988,
+    "rare_dst": 0.0052,
+    "fanout3": 0.012018,
+    "proc_first_user_on_dst": 8.9e-05,
+    "proc_new_process_on_dst": 0.116669,
+    "flow_new_pair": 0.002782,
+    "dns_new_pair": 0.001151
+  },
+  "surprise": {
+    "new_user_dst": 3.83,
+    "new_user_src": 4.05,
+    "new_src_dst": 3.69,
+    "ntlm": 3.38,
+    "first_ntlm_for_user": 5.0,
+    "any_fail": 5.52,
+    "rare_dst": 5.26,
+    "fanout3": 4.42,
+    "proc_first_user_on_dst": 9.32,
+    "proc_new_process_on_dst": 2.15,
+    "flow_new_pair": 5.88,
+    "dns_new_pair": 6.77
+  },
+  "scores": {
+    "score_auth|label": {
+      "average_precision": 0.0098
+    },
+    "score_corr|label": {
+      "average_precision": 0.0096
+    },
+    "score_auth|label_lenient": {
+      "average_precision": 0.0101
+    },
+    "score_corr|label_lenient": {
+      "average_precision": 0.0099
+    }
+  },
+  "timings_s": {
+    "auth_logons": 9.4,
+    "proc_starts": 10.0,
+    "flow_pairs": 4.8,
+    "dns_pairs": 0.1,
+    "first_seen": 9.6,
+    "dst_popularity": 0.3,
+    "edge_hours": 10.6,
+    "labels": 1.6,
+    "to_pandas": 6.6,
+    "total_seconds": 53.0
+  },
+  "rows": {
+    "auth_rows_scanned": 277999076,
+    "logons_kept": 27362410,
+    "proc_starts": 92943438
+  }
+}

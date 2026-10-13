@@ -1,0 +1,59 @@
+{
+  "tag": "A_static_population_surprise",
+  "config": {
+    "data": "data",
+    "out": "results",
+    "warmup_end": 7,
+    "end": 16,
+    "prior": "population",
+    "scorer": "surprise",
+    "regime": "static",
+    "budget": 25,
+    "watch_hours": 24,
+    "prior_hours": 24.0,
+    "share_prior": 20.0,
+    "cap": 100.0,
+    "outlier_pct": 99.9,
+    "kmax": 8,
+    "memory": "",
+    "tag": "A_static_population_surprise"
+  },
+  "budget_per_day": 25,
+  "alert_precision_lenient": 0.102,
+  "logins_to_review_per_day": 990.2,
+  "followup_logins_per_day": 605.9,
+  "metrics": {
+    "lenient": {
+      "edge_recall": 0.3564,
+      "followup_extra_recall": 0.002,
+      "users_caught": 37,
+      "users": 91,
+      "median_delay_h": 0.0
+    },
+    "strict": {
+      "edge_recall": 0.3595,
+      "followup_extra_recall": 0.0021,
+      "users_caught": 37,
+      "users": 91,
+      "median_delay_h": 0.0
+    }
+  },
+  "seconds": 99.5,
+  "profile_anomaly_per_day": {
+    "10": {
+      "precision_lenient": 0.089,
+      "redteam_entity_days_caught": 8,
+      "redteam_entity_days": 339
+    },
+    "25": {
+      "precision_lenient": 0.076,
+      "redteam_entity_days_caught": 17,
+      "redteam_entity_days": 339
+    },
+    "50": {
+      "precision_lenient": 0.056,
+      "redteam_entity_days_caught": 25,
+      "redteam_entity_days": 339
+    }
+  }
+}

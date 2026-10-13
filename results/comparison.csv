@@ -1,0 +1,9 @@
+run,regime,prior,scorer,alerts_per_day,alert_precision,recall_lenient,followup_extra_recall,users_caught,median_delay_h,recall_strict,logins_to_review_per_day,followup_logins_per_day,runtime_s,confirm_watch,profile_anomaly_prec@25,confirmed_extra_recall,total_recall,users_caught_any_route,confirmed_logins_per_day,confirmed_precision,review_items_per_day,median_logins_to_review,median_review_items,median_confirmed_logins
+A_static_population_surprise,static,population,surprise,25,0.102,0.3564,0.002,37/91,0.0,0.3595,990.2,605.9,99.5,none,0.076,,,,,,,,,
+B_static_peer_surprise,static,peer,surprise,25,0.107,0.3849,0.002,39/91,0.0,0.3864,980.6,534.6,104.9,none,0.067,,,,,,,,,
+C_run1,static,peer,density,25,0.156,0.4542,0.0143,51/91,0.0,0.4545,962.4,194.2,111.3,none,0.071,0.0,0.4684,51/91,0.0,0.0,148.8,236.0,126.0,0.0
+C_run2,static,peer,density,25,0.156,0.4542,0.0143,51/91,0.0,0.4545,962.4,194.2,105.4,none,0.071,0.0,0.4684,51/91,0.0,0.0,148.8,236.0,126.0,0.0
+D_oracle_peer_surprise,oracle,peer,surprise,25,0.102,0.3768,0.002,39/91,0.0,0.3781,985.9,554.8,507.6,none,0.049,,,,,,,,,
+F_run1,static,peer,density,25,0.156,0.4542,0.0143,51/91,0.0,0.4545,962.4,194.2,101.8,src,0.071,0.3462,0.8147,82/91,39.1,0.503,148.8,236.0,126.0,0.0
+F_run2,static,peer,density,25,0.156,0.4542,0.0143,51/91,0.0,0.4545,962.4,194.2,101.1,src,0.071,0.3462,0.8147,82/91,39.1,0.503,148.8,236.0,126.0,0.0
+I_iforest,static,peer,iforest,25,0.142,0.3605,0.002,32/91,0.0,0.3616,954.1,228.3,109.4,src,0.071,0.4175,0.78,74/91,44.9,0.51,151.0,236.0,122.0,0.0

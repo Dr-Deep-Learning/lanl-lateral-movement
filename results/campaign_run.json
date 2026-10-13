@@ -1,0 +1,141 @@
+{
+  "timings_s": {
+    "load": 0.7,
+    "view_user": 1.9,
+    "view_src": 2.0,
+    "view_dst": 0.4,
+    "incidents": 2.4
+  },
+  "positives": {
+    "label": {
+      "edge_hours": 484,
+      "users": 91
+    },
+    "label_lenient": {
+      "edge_hours": 491,
+      "users": 91
+    }
+  },
+  "prior_hours": 24.0,
+  "warmup_end": 7,
+  "cap": 100.0,
+  "habitual": {
+    "user": {
+      "threshold_k_new_per_hour": 28.0,
+      "entities": 9,
+      "top": [
+        [
+          "U7998",
+          106
+        ],
+        [
+          "U1723",
+          103
+        ],
+        [
+          "U1718",
+          61
+        ],
+        [
+          "U3840",
+          59
+        ],
+        [
+          "U194",
+          54
+        ],
+        [
+          "U3024",
+          42
+        ],
+        [
+          "U10009",
+          38
+        ],
+        [
+          "U4033",
+          34
+        ],
+        [
+          "U3116",
+          33
+        ]
+      ]
+    },
+    "src": {
+      "threshold_k_new_per_hour": 20.7599999999984,
+      "entities": 12,
+      "top": [
+        [
+          "C754",
+          106
+        ],
+        [
+          "C148",
+          103
+        ],
+        [
+          "C8935",
+          59
+        ],
+        [
+          "C21124",
+          38
+        ],
+        [
+          "C8287",
+          33
+        ],
+        [
+          "C1823",
+          28
+        ],
+        [
+          "C3173",
+          27
+        ],
+        [
+          "C3435",
+          24
+        ],
+        [
+          "C5802",
+          23
+        ],
+        [
+          "C5808",
+          23
+        ]
+      ]
+    },
+    "dst": {
+      "threshold_k_new_per_hour": 820.4670000000001,
+      "entities": 4,
+      "top": [
+        [
+          "C586",
+          1079
+        ],
+        [
+          "C743",
+          1036
+        ],
+        [
+          "C585",
+          1028
+        ],
+        [
+          "C1065",
+          822
+        ]
+      ]
+    }
+  },
+  "incidents": {
+    "campaigns_per_day": 25,
+    "campaigns": 225,
+    "incidents": 180,
+    "incidents_with_redteam_lenient": 9,
+    "redteam_logins_covered_lenient": 0.5051
+  }
+}

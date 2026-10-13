@@ -1,0 +1,16 @@
+# raw and extracted LANL data (3+ GB; download from https://csr.lanl.gov/data/cyber1/)
+data/
+*.txt.gz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# DuckDB scratch
+*.duckdb
+*.duckdb.wal
+tmp/
+
+# superseded runs
+results/stale/
